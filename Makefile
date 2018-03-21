@@ -13,6 +13,7 @@ deploy:
 install:
 	for FILE in `find ./macos -name "*.sh"`; do $$FILE & done
 	brew bundle
+	./etc/env.sh
 	@echo 🚀 Packages and settings are successfuly installed.
 
 update:

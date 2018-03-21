@@ -49,7 +49,6 @@ cask "atom"
 cask "docker"
 cask "dropbox"
 cask "iterm2"
-cask "google-chrome"
 cask "minikube"
 
 mas "Be Focused Pro", id: 961632517
