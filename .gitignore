@@ -1,4 +1,7 @@
 .DS_Store
 .git
 .emacs.d/auto-save-list
+.emacs.d/backup
 .emacs.d/elpa
+.eamcs.d/history
+.emacs.d/recentf

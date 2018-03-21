@@ -59,7 +59,6 @@
     color-theme
     yaml-mode
     markdown-mode
-    git-commit-mode
     hlinum
     powerline
     cmake-mode
@@ -76,7 +75,6 @@
     flymake-json
     flymake-jshint
 
-    ac-dabbrev
     ac-ispell
     ac-js2
     ac-helm
@@ -127,3 +125,24 @@
 ;    ;; show init time
 ;    (message "init time: %.3f sec"
 ;             (float-time (time-subtract after-init-time before-init-time)))))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ac-etags-requires 1)
+ '(ac-ispell-requires 4)
+ '(flymake-cppcheck-enable "warning,performance,information,style")
+ '(help-at-pt-display-when-idle (quote (flymake-overlay)) nil (help-at-pt))
+ '(help-at-pt-timer-delay 0.9)
+ '(package-selected-packages
+   (quote
+    (etags-table ac-etags ctags auto-complete-c-headers auto-complete-clang-async ac-helm ac-js2 ac-ispell yaml-mode web-mode stylus-mode sr-speedbar python-mode powerline popwin markdown-mode json-mode js2-mode js-doc jade-mode init-loader hlinum helm-descbinds helm-c-yasnippet helm-c-moccur handlebars-mode google-translate google-c-style git-dwim flymake-json flymake-jshint flymake-cursor flymake-cppcheck egg dash-at-point csharp-mode company color-theme col-highlight cmake-mode auto-highlight-symbol auto-complete)))
+ '(yas-trigger-key "TAB" t))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(linum ((t (:inherit (shadow default) :foreground "#2d891f"))))
+ '(linum-highlight-face ((t (:foreground "#000" :background "#81cc30")))))
