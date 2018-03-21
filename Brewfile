@@ -48,7 +48,7 @@ brew "tree"
 
 cask "atom"
 cask "docker"
-case "dropbox"
+cask "dropbox"
 cask "iterm2"
 cask "google-chrome"
 cask "minikube"
