@@ -44,6 +44,7 @@ brew "xz"
 brew "the_silver_searcher"
 brew "tmux"
 brew "tree"
+brew "fzf"
 
 cask "atom"
 cask "docker"
