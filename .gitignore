@@ -3,5 +3,6 @@
 .emacs.d/auto-save-list
 .emacs.d/backup
 .emacs.d/elpa
-.eamcs.d/history
+.emacs.d/history
 .emacs.d/recentf
+.emacs.d/ac-comphist.dat

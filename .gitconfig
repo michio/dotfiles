@@ -3,3 +3,5 @@
 	email = michinobu.shimatani@gmail.com
 [push]
 	default = simple
+[ghq]
+	root = /Users/a12666/go/src
